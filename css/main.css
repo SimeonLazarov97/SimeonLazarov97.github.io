@@ -179,7 +179,7 @@ body#bg-img {
 
 body#bg-img:after {
   content: "";
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 100%;
@@ -418,7 +418,7 @@ main#home h1 {
     height: 150px;
   }
   .about-info {
-        grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+        grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
@@ -438,6 +438,10 @@ main#home h1 {
   main .lg-heading {
     margin-top: 1rem;
     font-size: 5rem;
+  }
+  .boxes div {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
   }
   .projects {
     -ms-grid-columns: 1fr;
